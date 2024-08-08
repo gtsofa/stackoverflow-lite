@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6483C672C6554EC00B32ABB /* stackoverflow_lite.docc in Sources */ = {isa = PBXBuildFile; fileRef = C6483C662C6554EC00B32ABB /* stackoverflow_lite.docc */; };
 		C6483C6D2C6554ED00B32ABB /* stackoverflow_lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6483C622C6554EC00B32ABB /* stackoverflow_lite.framework */; };
-		C6483C722C6554ED00B32ABB /* stackoverflow_liteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6483C712C6554ED00B32ABB /* stackoverflow_liteTests.swift */; };
-		C6483C732C6554ED00B32ABB /* stackoverflow_lite.h in Headers */ = {isa = PBXBuildFile; fileRef = C6483C652C6554EC00B32ABB /* stackoverflow_lite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +22,8 @@
 
 /* Begin PBXFileReference section */
 		C6483C622C6554EC00B32ABB /* stackoverflow_lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = stackoverflow_lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6483C652C6554EC00B32ABB /* stackoverflow_lite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackoverflow_lite.h; sourceTree = "<group>"; };
-		C6483C662C6554EC00B32ABB /* stackoverflow_lite.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = stackoverflow_lite.docc; sourceTree = "<group>"; };
 		C6483C6C2C6554ED00B32ABB /* stackoverflow-liteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stackoverflow-liteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6483C712C6554ED00B32ABB /* stackoverflow_liteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackoverflow_liteTests.swift; sourceTree = "<group>"; };
+		C6483C7C2C65555B00B32ABB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +48,7 @@
 		C6483C582C6554EC00B32ABB = {
 			isa = PBXGroup;
 			children = (
+				C6483C7C2C65555B00B32ABB /* README.md */,
 				C6483C642C6554EC00B32ABB /* stackoverflow-lite */,
 				C6483C702C6554ED00B32ABB /* stackoverflow-liteTests */,
 				C6483C632C6554EC00B32ABB /* Products */,
@@ -71,8 +67,6 @@
 		C6483C642C6554EC00B32ABB /* stackoverflow-lite */ = {
 			isa = PBXGroup;
 			children = (
-				C6483C652C6554EC00B32ABB /* stackoverflow_lite.h */,
-				C6483C662C6554EC00B32ABB /* stackoverflow_lite.docc */,
 			);
 			path = "stackoverflow-lite";
 			sourceTree = "<group>";
@@ -80,7 +74,6 @@
 		C6483C702C6554ED00B32ABB /* stackoverflow-liteTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6483C712C6554ED00B32ABB /* stackoverflow_liteTests.swift */,
 			);
 			path = "stackoverflow-liteTests";
 			sourceTree = "<group>";
@@ -92,7 +85,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6483C732C6554ED00B32ABB /* stackoverflow_lite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6483C672C6554EC00B32ABB /* stackoverflow_lite.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6483C722C6554ED00B32ABB /* stackoverflow_liteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
