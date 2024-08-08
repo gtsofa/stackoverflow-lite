@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6483C672C6554EC00B32ABB /* stackoverflow_lite.docc in Sources */ = {isa = PBXBuildFile; fileRef = C6483C662C6554EC00B32ABB /* stackoverflow_lite.docc */; };
+		C6483C6D2C6554ED00B32ABB /* stackoverflow_lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6483C622C6554EC00B32ABB /* stackoverflow_lite.framework */; };
+		C6483C722C6554ED00B32ABB /* stackoverflow_liteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6483C712C6554ED00B32ABB /* stackoverflow_liteTests.swift */; };
+		C6483C732C6554ED00B32ABB /* stackoverflow_lite.h in Headers */ = {isa = PBXBuildFile; fileRef = C6483C652C6554EC00B32ABB /* stackoverflow_lite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6483C6E2C6554ED00B32ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6483C592C6554EC00B32ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6483C612C6554EC00B32ABB;
+			remoteInfo = "stackoverflow-lite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6483C622C6554EC00B32ABB /* stackoverflow_lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = stackoverflow_lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6483C652C6554EC00B32ABB /* stackoverflow_lite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackoverflow_lite.h; sourceTree = "<group>"; };
+		C6483C662C6554EC00B32ABB /* stackoverflow_lite.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = stackoverflow_lite.docc; sourceTree = "<group>"; };
+		C6483C6C2C6554ED00B32ABB /* stackoverflow-liteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stackoverflow-liteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6483C712C6554ED00B32ABB /* stackoverflow_liteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackoverflow_liteTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6483C5F2C6554EC00B32ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6483C692C6554ED00B32ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6483C6D2C6554ED00B32ABB /* stackoverflow_lite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6483C582C6554EC00B32ABB = {
+			isa = PBXGroup;
+			children = (
+				C6483C642C6554EC00B32ABB /* stackoverflow-lite */,
+				C6483C702C6554ED00B32ABB /* stackoverflow-liteTests */,
+				C6483C632C6554EC00B32ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6483C632C6554EC00B32ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6483C622C6554EC00B32ABB /* stackoverflow_lite.framework */,
+				C6483C6C2C6554ED00B32ABB /* stackoverflow-liteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6483C642C6554EC00B32ABB /* stackoverflow-lite */ = {
+			isa = PBXGroup;
+			children = (
+				C6483C652C6554EC00B32ABB /* stackoverflow_lite.h */,
+				C6483C662C6554EC00B32ABB /* stackoverflow_lite.docc */,
+			);
+			path = "stackoverflow-lite";
+			sourceTree = "<group>";
+		};
+		C6483C702C6554ED00B32ABB /* stackoverflow-liteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6483C712C6554ED00B32ABB /* stackoverflow_liteTests.swift */,
+			);
+			path = "stackoverflow-liteTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C6483C5D2C6554EC00B32ABB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6483C732C6554ED00B32ABB /* stackoverflow_lite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C6483C612C6554EC00B32ABB /* stackoverflow-lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6483C762C6554ED00B32ABB /* Build configuration list for PBXNativeTarget "stackoverflow-lite" */;
+			buildPhases = (
+				C6483C5D2C6554EC00B32ABB /* Headers */,
+				C6483C5E2C6554EC00B32ABB /* Sources */,
+				C6483C5F2C6554EC00B32ABB /* Frameworks */,
+				C6483C602C6554EC00B32ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stackoverflow-lite";
+			productName = "stackoverflow-lite";
+			productReference = C6483C622C6554EC00B32ABB /* stackoverflow_lite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6483C6B2C6554ED00B32ABB /* stackoverflow-liteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6483C792C6554ED00B32ABB /* Build configuration list for PBXNativeTarget "stackoverflow-liteTests" */;
+			buildPhases = (
+				C6483C682C6554ED00B32ABB /* Sources */,
+				C6483C692C6554ED00B32ABB /* Frameworks */,
+				C6483C6A2C6554ED00B32ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6483C6F2C6554ED00B32ABB /* PBXTargetDependency */,
+			);
+			name = "stackoverflow-liteTests";
+			productName = "stackoverflow-liteTests";
+			productReference = C6483C6C2C6554ED00B32ABB /* stackoverflow-liteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6483C592C6554EC00B32ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C6483C612C6554EC00B32ABB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C6483C6B2C6554ED00B32ABB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C6483C5C2C6554EC00B32ABB /* Build configuration list for PBXProject "stackoverflow-lite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6483C582C6554EC00B32ABB;
+			productRefGroup = C6483C632C6554EC00B32ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6483C612C6554EC00B32ABB /* stackoverflow-lite */,
+				C6483C6B2C6554ED00B32ABB /* stackoverflow-liteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6483C602C6554EC00B32ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6483C6A2C6554ED00B32ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6483C5E2C6554EC00B32ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6483C672C6554EC00B32ABB /* stackoverflow_lite.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6483C682C6554ED00B32ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6483C722C6554ED00B32ABB /* stackoverflow_liteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6483C6F2C6554ED00B32ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6483C612C6554EC00B32ABB /* stackoverflow-lite */;
+			targetProxy = C6483C6E2C6554ED00B32ABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6483C742C6554ED00B32ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6483C752C6554ED00B32ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6483C772C6554ED00B32ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "gtsofa.com.stackoverflow-lite";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6483C782C6554ED00B32ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "gtsofa.com.stackoverflow-lite";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C6483C7A2C6554ED00B32ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gtsofa.com.stackoverflow-liteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6483C7B2C6554ED00B32ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gtsofa.com.stackoverflow-liteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6483C5C2C6554EC00B32ABB /* Build configuration list for PBXProject "stackoverflow-lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6483C742C6554ED00B32ABB /* Debug */,
+				C6483C752C6554ED00B32ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6483C762C6554ED00B32ABB /* Build configuration list for PBXNativeTarget "stackoverflow-lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6483C772C6554ED00B32ABB /* Debug */,
+				C6483C782C6554ED00B32ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6483C792C6554ED00B32ABB /* Build configuration list for PBXNativeTarget "stackoverflow-liteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6483C7A2C6554ED00B32ABB /* Debug */,
+				C6483C7B2C6554ED00B32ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6483C592C6554EC00B32ABB /* Project object */;
+}
