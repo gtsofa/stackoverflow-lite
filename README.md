@@ -45,7 +45,7 @@ Then the app should display an error message
 
 ## Model Specs
 
-### QuestionItem
+### Question
 
 | Property         | Type          |
 | ---------------- | ------------- |
