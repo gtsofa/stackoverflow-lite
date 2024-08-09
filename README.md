@@ -5,54 +5,58 @@
 
 ### Story: Customer request to post a question
 
-#### Narrative
+### Narrative
+```
 As an online customer
 I want to be able to post a question
 So I can get an answer to the question
+```
 
 #### Scenario(Acceptance criteria)
+```
 Given the customer has connectivity
 When the customer request to post a question
 Then app should display a success message that the question has been posted
 
+
 Given the customer does not have connectivity
 When the customer request to post a question
 Then the app should display an error message
+```
 
-## Post Question Data From Remote Use Case
+### Post Question Data From Remote Use Case
 
-### Data:
+#### Data:
 - URL
 
-### Primary course (happy path)
+#### Primary course (happy path)
 1. Execute "Post Question Data" command with the above data.
 2. System submits data from the URL
 3. System validates submitted data.
 4. System delivers success message
 
-### No connectivity - error course (sad path):
+#### No connectivity - error course (sad path):
 1. System delivers connectivity error
 
-### Invalid data – error course (sad path):
+#### Invalid data – error course (sad path):
 1. System delivers invalid data error.
 
---------------------------------------------------------------------------
+---
 
-### Model Specs
+## Model Specs
 
-question-title
-description
+### QuestionItem
 
-| Property  | Type |
-| ------------- | ------------- |
-| question_title | String  |
-| question_desc  | String  |
+| Property         | Type          |
+| ---------------- | ------------- |
+| `question_title` | `String`      |
+| `question_desc`  | `String`      |
 
 ### Payload contract
 ```
 POST /question
 
-2xx RESPONSE
+201 RESPONSE
 
 {
     "question_title": "What is the '-->' operator in C/C++? ",
