@@ -49,7 +49,7 @@
 		C6483C582C6554EC00B32ABB = {
 			isa = PBXGroup;
 			children = (
-				C6BB933F2C691E8A00ECAF79 /* QuestionItem.swift */,
+				C6BB93402C691F7A00ECAF79 /* Question Feature */,
 				C6483C7C2C65555B00B32ABB /* README.md */,
 				C6483C642C6554EC00B32ABB /* stackoverflow-lite */,
 				C6483C702C6554ED00B32ABB /* stackoverflow-liteTests */,
@@ -78,6 +78,14 @@
 			children = (
 			);
 			path = "stackoverflow-liteTests";
+			sourceTree = "<group>";
+		};
+		C6BB93402C691F7A00ECAF79 /* Question Feature */ = {
+			isa = PBXGroup;
+			children = (
+				C6BB933F2C691E8A00ECAF79 /* QuestionItem.swift */,
+			);
+			path = "Question Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
