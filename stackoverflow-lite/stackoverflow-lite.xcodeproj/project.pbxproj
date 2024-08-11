@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C6483C6D2C6554ED00B32ABB /* stackoverflow_lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6483C622C6554EC00B32ABB /* stackoverflow_lite.framework */; };
 		C6BB93412C69275C00ECAF79 /* QuestionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB933F2C691E8A00ECAF79 /* QuestionItem.swift */; };
+		C6FDCAE72C6952B900B77B47 /* RemoteQuestionLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FDCAE62C6952B900B77B47 /* RemoteQuestionLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 		C6483C6C2C6554ED00B32ABB /* stackoverflow-liteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stackoverflow-liteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6483C7C2C65555B00B32ABB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C6BB933F2C691E8A00ECAF79 /* QuestionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionItem.swift; sourceTree = "<group>"; };
+		C6FDCAE62C6952B900B77B47 /* RemoteQuestionLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteQuestionLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C6483C702C6554ED00B32ABB /* stackoverflow-liteTests */ = {
 			isa = PBXGroup;
 			children = (
+				C6FDCAE62C6952B900B77B47 /* RemoteQuestionLoaderTests.swift */,
 			);
 			path = "stackoverflow-liteTests";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 					};
 					C6483C6B2C6554ED00B32ABB = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -205,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6FDCAE72C6952B900B77B47 /* RemoteQuestionLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -414,6 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "gtsofa.com.stackoverflow-liteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -422,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
