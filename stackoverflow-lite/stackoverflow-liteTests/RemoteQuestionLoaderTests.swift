@@ -8,22 +8,25 @@
 import XCTest
 
 class RemoteQuestionLoader {
+    let client: HTTPClient
+    
+    init(client: HTTPClient) {
+        self.client = client
+    }
     
     func post() {
-        HTTPClient.shared.get(from: URL(string: "https://a-url.com")!)
+        client.get(from: URL(string: "https://a-url.com")!)
     }
 }
 
-class HTTPClient {
-    static var shared = HTTPClient()
-    
-    func get(from url: URL) {}
+protocol HTTPClient {
+    func get(from url: URL)
 }
 
 class HTTPClientSpy: HTTPClient {
     var requestedURL: URL?
     
-    override func get(from url: URL) {
+    func get(from url: URL) {
         requestedURL = url
     }
     
@@ -32,9 +35,8 @@ class HTTPClientSpy: HTTPClient {
 final class RemoteQuestionLoaderTests: XCTestCase {
     func test_init_doesNotRequestDataFromURL() {
         let client = HTTPClientSpy()
-        HTTPClient.shared = client
         
-        _ = RemoteQuestionLoader()
+        _ = RemoteQuestionLoader(client: client)
         
         XCTAssertNil(client.requestedURL)
         
@@ -42,9 +44,8 @@ final class RemoteQuestionLoaderTests: XCTestCase {
     
     func test_post_requestDataFromURL() {
         let client = HTTPClientSpy()
-        HTTPClient.shared = client
         
-        let sut = RemoteQuestionLoader()
+        let sut = RemoteQuestionLoader(client: client)
         
         sut.post()
         
