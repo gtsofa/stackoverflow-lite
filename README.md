@@ -1,5 +1,58 @@
 #  STACKOVERFLOWLITE APP
 
+## Account Feature Specs
+
+### Story: Customer request to create and log in an account
+
+### Narrative #1
+```
+As an online customer 
+I want to register on the app
+So I can post a question or an answer
+```
+
+#### Scenarios (Acceptance criteria):
+```
+Given the customer has connectivity
+    When the customer request to register
+    Then app should display a message the user has been registered
+
+Given the customer already has an account
+    When the customer request to register
+    Then the app should display an error message
+```
+
+### Register Customer Use Case
+
+#### Data:
+- URL
+
+#### Primary course(happy path):
+1. Execute "Create User Data" command with above data
+2. System submits data from the URL
+3. System validates submitted data.
+4. System delivers success message
+
+#### No connectivity - error course(sad path):
+1. System delivers connectivity error
+
+#### Invalid data – error course (sad path):
+1. System delivers invalid data error.
+
+## Model Specs
+
+### Register
+
+| Property         | Type          |
+| ---------------- | ------------- |
+| `username`       | `String`      |
+| `email`          | `String`      |
+| `password`       | `String`      |
+| `confirm_password` | `String`    |
+
+
+---
+
 
 ## Article Question Feature Specs
 
