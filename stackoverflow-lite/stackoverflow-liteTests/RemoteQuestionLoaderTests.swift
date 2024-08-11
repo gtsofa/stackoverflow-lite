@@ -8,14 +8,16 @@
 import XCTest
 
 class RemoteQuestionLoader {
+    let url: URL
     let client: HTTPClient
     
-    init(client: HTTPClient) {
+    init(url: URL, client: HTTPClient) {
+        self.url = url
         self.client = client
     }
     
     func post() {
-        client.get(from: URL(string: "https://a-url.com")!)
+        client.get(from: url)
     }
 }
 
@@ -34,22 +36,24 @@ class HTTPClientSpy: HTTPClient {
 
 final class RemoteQuestionLoaderTests: XCTestCase {
     func test_init_doesNotRequestDataFromURL() {
+        let url = URL(string: "https://a-url.com")!
         let client = HTTPClientSpy()
         
-        _ = RemoteQuestionLoader(client: client)
+        _ = RemoteQuestionLoader(url: url, client: client)
         
         XCTAssertNil(client.requestedURL)
         
     }
     
     func test_post_requestDataFromURL() {
+        let url = URL(string: "https://a-given-url.com")!
         let client = HTTPClientSpy()
         
-        let sut = RemoteQuestionLoader(client: client)
+        let sut = RemoteQuestionLoader(url: url, client: client)
         
         sut.post()
         
-        XCTAssertNotNil(client.requestedURL)
+        XCTAssertEqual(client.requestedURL, url)
     }
 
 }
