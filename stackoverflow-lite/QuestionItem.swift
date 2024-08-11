@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct QuestionItem {
+    let title: String
+    let description: String
+}
